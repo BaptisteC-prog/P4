@@ -84,16 +84,16 @@ CREATE TABLE `commande` (
    PRIMARY KEY (`id_commande`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (1,10, '2017-04-04', 1, 22, 76.37, 4);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (2,9, '2019-04-15', 1, 24, 209.82, 2);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (3,8, '2016-05-20', 4, 15, 111.71, 8);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (4,7, '2019-03-05', 1, 17, 167.62, 2);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (5,6, '2020-01-10', 1, 16, 205.99, 1);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (6,5, '2019-12-17', 1, 15, 49.59, 9);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (7,4, '2018-09-19', 3, 22, 46.32, 1);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (8,3, '2017-08-07', 2, 23, 195.53, 6);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (9,2, '2019-06-01', 5, 8, 161.27, 9);
-INSERT INTO `commande` (`id_commande`,`id_client`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (10,1, '2018-06-11', 3, 3, 50.23, 7);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (1,10,8, '2017-04-04', 1, 22, 76.37, 4);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (2,9,5, '2019-04-15', 1, 24, 209.82, 2);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (3,8,9, '2016-05-20', 4, 15, 111.71, 8);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (4,7,9, '2019-03-05', 1, 17, 167.62, 2);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (5,6,10, '2020-01-10', 1, 16, 205.99, 1);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (6,5,5, '2019-12-17', 1, 15, 49.59, 9);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (7,4,4, '2018-09-19', 3, 22, 46.32, 1);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (8,3,8, '2017-08-07', 2, 23, 195.53, 6);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (9,2,1, '2019-06-01', 5, 8, 161.27, 9);
+INSERT INTO `commande` (`id_commande`,`id_client`,`id_adresse`, `date_commande`, `statut_commande`, `delai_livraison`, `prix_total`, `id_livreur`) VALUES (10,1,9, '2018-06-11', 3, 3, 50.23, 7);
 
 
 #
